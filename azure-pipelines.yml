@@ -11,6 +11,9 @@ trigger:
 pool: Default
 
 steps:
+- task: CmdLine@2
+  inputs:
+    script: 'sourceanalyzer -b gradle_f gradlew wrapper --gradle-version 8.8'
 - task: FortifySCA@7
   inputs:
     applicationType: 'other'
