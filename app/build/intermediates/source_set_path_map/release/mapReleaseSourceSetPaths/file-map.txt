@@ -1,0 +1,7 @@
+com.example.android.recipes.add_custom_build_config_fields.app-pngs-0 C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\build\generated\res\pngs\release
+com.example.android.recipes.add_custom_build_config_fields.app-resValues-1 C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\build\generated\res\resValues\release
+com.example.android.recipes.add_custom_build_config_fields.app-packageReleaseResources-2 C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.android.recipes.add_custom_build_config_fields.app-packageReleaseResources-3 C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.android.recipes.add_custom_build_config_fields.app-release-4 C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.android.recipes.add_custom_build_config_fields.app-main-5 C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\res
+com.example.android.recipes.add_custom_build_config_fields.app-release-6 C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\release\res

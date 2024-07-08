@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.4.2" type="incidents">
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/example/android/recipes/add_custom_build_config_fields/MainActivity.kt"
+            line="26"
+            column="23"
+            startOffset="964"
+            endLine="26"
+            endColumn="56"
+            endOffset="997"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/example/android/recipes/add_custom_build_config_fields/MainActivity.kt"
+            line="26"
+            column="24"
+            startOffset="965"
+            endLine="26"
+            endColumn="30"
+            endOffset="971"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/example/android/recipes/add_custom_build_config_fields/MainActivity.kt"
+            line="27"
+            column="23"
+            startOffset="1021"
+            endLine="27"
+            endColumn="61"
+            endOffset="1059"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/example/android/recipes/add_custom_build_config_fields/MainActivity.kt"
+            line="27"
+            column="24"
+            startOffset="1022"
+            endLine="27"
+            endColumn="35"
+            endOffset="1033"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.4.2 is available: 8.5.0">
+        <fix-replace
+            description="Change to 8.5.0"
+            family="Update versions"
+            oldString="8.4.2"
+            replacement="8.5.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="2"
+            column="23"
+            startOffset="33"
+            endLine="2"
+            endColumn="30"
+            endOffset="40"/>
+    </incident>
+
+</incidents>

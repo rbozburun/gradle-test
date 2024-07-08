@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.4.2" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.4.2 is available: 8.5.0">
+        <fix-replace
+            description="Change to 8.5.0"
+            family="Update versions"
+            oldString="8.4.2"
+            replacement="8.5.0"
+            priority="0"/>
+        <location
+            file="../gradle/libs.versions.toml"
+            line="2"
+            column="23"
+            startOffset="33"
+            endLine="2"
+            endColumn="30"
+            endOffset="40"/>
+    </incident>
+
+</incidents>

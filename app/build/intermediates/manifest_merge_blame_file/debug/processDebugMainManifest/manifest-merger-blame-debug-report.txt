@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.recipes.add_custom_build_config_fields" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+7        android:targetSdkVersion="34" />
+8    <!--
+9         Copyright 2022 The Android Open Source Project
+10         Licensed under the Apache License, Version 2.0 (the "License");
+11         you may not use this file except in compliance with the License.
+12         You may obtain a copy of the License at
+13              http://www.apache.org/licenses/LICENSE-2.0
+14         Unless required by applicable law or agreed to in writing, software
+15         distributed under the License is distributed on an "AS IS" BASIS,
+16         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+17         See the License for the specific language governing permissions and
+18         limitations under the License.
+19    -->
+20    <application
+20-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:15:5-22:19
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:label="Minimal" >
+23-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:15:18-41
+24        <activity
+24-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:16:9-21:20
+25            android:name="com.example.android.recipes.add_custom_build_config_fields.MainActivity"
+25-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:16:19-46
+26            android:exported="true" >
+26-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:16:47-70
+27            <intent-filter>
+27-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:17:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:18:17-69
+28-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:19:17-77
+30-->C:\Sample Web Apps\gradle-recipes-agp-8.4\addCustomBuildConfigFields\app\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
