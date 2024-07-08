@@ -14,6 +14,11 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'sourceanalyzer -b gradle_f gradlew wrapper --gradle-version 8.8'
+- task: CmdLine@2
+  inputs:
+    script: |
+      set ANDROID_HOME=C:\Android
+      set ANDROID_SDK_ROOT=C:\Android
 - task: FortifySCA@7
   inputs:
     applicationType: 'other'
