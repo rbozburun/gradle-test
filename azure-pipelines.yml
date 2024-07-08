@@ -1,0 +1,27 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+# RUN SCA ONLY
+
+trigger:
+- main
+
+pool: Default
+
+steps:
+- task: FortifySCA@7
+  inputs:
+    applicationType: 'other'
+    buildToolOptions: 'gradlew clean build'
+    fortifyBuildId: 'gradle_f'
+    scaVerbose: true
+    scaDebug: true
+    fortifyScanType: 'ScanCentralScan'
+    scanCentralFortifyServerName: 'SSC'
+    scanCentralRunFortifyUpload: true
+    scanCentralFortifyApplicationIdentifierType: 'byId'
+    scanCentralFortifyApplicationVersionId: '10019'
+    fortifyBuildFailureCriteria: '[fortify priority order]:critical'
+    taskResultForBuildFailureCriteria: 'FAIL'
