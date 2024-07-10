@@ -17,8 +17,11 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      set ANDROID_HOME=C:\Android
-      set ANDROID_SDK_ROOT=C:\Android
+      set ANDROID_HOME=$(ANDROID_HOME)
+      set ANDROID_SDK_ROOT=$(ANDROID_SDK_ROOT)
+- task: CmdLine@2
+  inputs:
+    script: 'echo %ANDROID_HOME%'
 - task: FortifySCA@7
   inputs:
     applicationType: 'other'
