@@ -24,9 +24,11 @@ steps:
     script: 'echo %ANDROID_HOME%'
 - task: FortifySCA@7
   inputs:
-    applicationType: 'other'
+    applicationType: 'java'
+    buildSourceVersion: '17'
     buildToolOptions: 'gradlew clean build'
     fortifyBuildId: 'gradle_f'
+    runFortifyClean: false
     scaVerbose: true
     scaDebug: true
     fortifyScanType: 'ScanCentralScan'
